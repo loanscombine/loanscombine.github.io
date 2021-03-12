@@ -15,24 +15,24 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR"
+title                    : "loanscombine"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "금융(대출) 정보를 다양하게 공유하는 블로그입니다"
+name                     : "loanscombine"
+description              : "무직자 비상금대출 , 무직자 대출 , 대학생대출 , 중소기업대출"
+url                      : "https://loanscombine.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+repository               : "loanscombine/loanscombine.github.io"
+teaser                   : "/assets/images/loanyy.png"
+logo                     : "/assets/images/thum.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no titl
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "loanscombine-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -51,7 +51,6 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -64,10 +63,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : 
+bing_site_verification   : 
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : 
 
 # Social Sharing
 twitter:
@@ -76,7 +75,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/loanloan.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -94,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "loanscombine"
+  avatar           : "/assets/images/thum.png"
+  bio              : # ""
+  location         : # "Somewhere"
   email            :
   links:
     - label: "Email"
@@ -220,6 +219,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -243,9 +243,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -277,6 +277,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
