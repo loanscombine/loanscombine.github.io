@@ -63,10 +63,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : 
-bing_site_verification   : 
+google_site_verification : "vgSMz5PKs-gGgUmXzdzwh-ZCwYpxLNtjsRTK04IyNv0"
+bing_site_verification   : "A392B03F31E8F8A28BBD0B8A18DD5C23"
 yandex_site_verification :
-naver_site_verification  : 
+naver_site_verification  : "4eddd2f86113f618c88079cd3004fe44c0a30382"
 
 # Social Sharing
 twitter:
